@@ -1,0 +1,88 @@
+.add_product {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    max-width: 100%;
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background: #fff;
+    z-index: 100000000;
+  }
+  
+  .add-product-selector,
+  .addproduct-itemfield input {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .add-product-selector {
+    padding: 10px;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b8d;
+    border-radius: 4px;
+  }
+  
+  .addproduct-btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .ag-theme-alpine .ag-header {
+    background-color: #6079ff; /* Header background */
+    color: #fff; /* Header text color */
+  }
+  
+  .ag-theme-alpine .ag-row {
+    font-size: 14px;
+    color: #7b7b7b;
+  }
+  
+  .ag-theme-alpine .ag-cell {
+    padding: 10px;
+    border: 1px solid #c3c3c3; /* Cell border */
+  }
+  
+  .ag-theme-alpine .ag-root {
+    border-radius: 6px; /* Apply border radius to grid */
+  }
+  
+  .ag-theme-alpine .ag-paging-panel {
+    font-size: 16px;
+    color: #6079ff; /* Pagination text color */
+  }
+  
+  @media (max-width: 800px) {
+    .add_product {
+      padding: 20px;
+      left: 0;
+      top: 50px;
+      margin: 0;
+    }
+  
+    .add-product-selector {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .addproduct-btn {
+      font-size: 14px;
+    }
+  
+    .ag-theme-alpine {
+      width: 100%; /* Ensure grid takes full width on small screens */
+    }
+  }
+  

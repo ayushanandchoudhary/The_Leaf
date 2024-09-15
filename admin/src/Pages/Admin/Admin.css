@@ -1,0 +1,10 @@
+.admin{
+    display: flex;
+    background-color: #e9ecef;
+    height: 100vh;
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}
